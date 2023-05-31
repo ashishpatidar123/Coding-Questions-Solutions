@@ -22,3 +22,31 @@ stack<int> pushAtBottom(stack<int>& myStack, int x)
     // return our original stack
     return myStack;
 }
+
+//Another approach
+
+#include <bits/stdc++.h> 
+void solve(stack<int>& myStack,int x){
+    //check for the empty condition
+    // if it is empty then push our element
+    if(myStack.empty()){
+        myStack.push(x);
+        return;
+    }
+    // store the topmost element
+    // because we have to push it later
+    int num = myStack.top();
+    // remove the topmost element
+    myStack.pop();
+    // recursive call after removing the topmost element
+    // thus decreasing the size of the stack
+    solve(myStack,x);
+    // again push the top element 
+    myStack.push(num);
+}
+stack<int> pushAtBottom(stack<int>& myStack, int x){ 
+
+       solve(myStack, x);
+       return myStack;
+}
+
