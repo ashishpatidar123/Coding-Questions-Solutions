@@ -29,6 +29,25 @@ bool isCyclicBFS(unordered_map<int,list<int>>&adj,unordered_map<int,int>&parent,
         }
         return false;
     }
+bool isCyclicDFS(int node,int parent,unordered_map<int,list<int>>&adj,
+                unordered_map<int,bool>&visited){
+
+        visited[node] = true;
+
+        for(auto i:adj[node]){
+
+            if(visited[i]==false){
+                bool ans = isCyclicDFS(i,node,adj,visited);
+                if(ans==true){
+                    return true;
+                } 
+            }
+            else if(parent!=i){
+                return true;
+            }
+        }
+        return false;     
+    }
 string cycleDetection (vector<vector<int>>& edges, int n, int m)
 {    
     // create a adjacency list
@@ -52,6 +71,7 @@ string cycleDetection (vector<vector<int>>& edges, int n, int m)
         // if it is not visited then call the helper function
         if(visited[i]==false){
             bool ans = isCyclicBFS(adj,parent,visited,i);
+            //bool ans = isCyclicDFS(i,-1,adj,visited);
             if(ans==true){
                 return "Yes";
             }
