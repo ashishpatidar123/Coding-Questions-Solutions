@@ -26,34 +26,6 @@ private:
         return level(root->right,temp,lev+1);
 
     }
-
-    // bool isSiblings(TreeNode*root,int x,int y){
-
-    //     if(root==NULL){
-    //         return true;
-    //     }
-        
-    //     // if(root->right == NULL &&( root->left->val==x || root->left->val==y)){
-    //     //     return false;
-    //     // }
-        
-    //     if(root->left!=NULL && root->right!=NULL){
-
-    //         return ((root->left->val==x && root->right->val==y) || 
-    //                (root->left->val==y && root->right->val==x) ||
-    //                isSiblings(root->left,x,y) ||
-    //                isSiblings(root->right,x,y));
-    //     }
-    //     // if(root->left==NULL && root->right==NULL){
-    //     //     return true;
-    //     // }
-    //     // // if(root->left == NULL &&( root->right->val==x || root->right->val==y)){
-    //     // //     return false;
-    //     // // }
-    //     return false;
-        
-        
-    // }
     bool isSiblings(TreeNode* root, int x, int y) {
         if (root == nullptr) {
             return false;
