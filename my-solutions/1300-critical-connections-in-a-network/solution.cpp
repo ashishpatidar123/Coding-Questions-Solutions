@@ -35,7 +35,7 @@ private:
                 // if the nbr is visited then update the lowest discovery time of the node
                 // by finding the lowest discovery time among it's neighbours
                 else{
-                    low[node] = min(disc[nbr],low[node]);
+                    low[node] = min(low[nbr],low[node]);
                 }
             }
         }
