@@ -1,57 +1,48 @@
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        unordered_map<int,vector<int>> adj;
+        
+        vector<vector<int>>adj(numCourses);
 
-        for(int i=0; i<prerequisites.size(); i++){
-            int first = prerequisites[i][0];
-            int second = prerequisites[i][1];
+        int m = prerequisites.size();
 
-            adj[second].push_back(first);
-        }
-
-        vector<int> indegree(numCourses);
-
-        for(auto i:adj){
-            for(auto j:i.second){
-                indegree[j]++;
+        for(int i=0; i<m; i++){
+            int u = prerequisites[i][0];
+            int v = prerequisites[i][1];
+            if(v==u){
+                return false;
             }
+            adj[v].push_back(u);
         }
-        queue<int> q;
-        for(int i=0; i<numCourses; i++){
-            if(indegree[i]==0){
-                q.push(i);
-            }
-        }
-        int count = 0;
-        // unordered_map<int,bool> visited;
-        // for(int i=0; i<numCourses; i++){
-        //     visited[i] = false;
-        // }
-        while(!q.empty()){
-            int front = q.front();
-            q.pop();
-            count++;
-            // if(visited[front]==false){
-            //     visited[front]=true;
-
-                for(auto j:adj[front]){
-                    
-                    indegree[j]--;
-                    if(indegree[j]==0){
-                        q.push(j);
-                        // visited[j]=true;
-                    }
-                }
-            // }
-
-        }
-        if(count==numCourses){
+        
+        if(m==1 || m==0){
             return true;
         }
-        else{
-            return false;
+        
+        queue<int>q;
+       
+        for(int k=0; k<numCourses; k++){
+            vector<int>visited(numCourses,0);
+            q.push(k);
+            visited[k]=1;
+            
+            while(!q.empty()){
+
+                int u = q.front();
+                q.pop();
+                for(auto v:adj[u]){
+                    if(visited[v] && v==k){
+                        return false;
+                    }
+                    if(!visited[v]){
+                        q.push(v);
+                        visited[v]=true;
+                    }
+                }
+            }
         }
+
+        return true;
+
     }
 };
-
