@@ -11,15 +11,17 @@
  */
 class Solution {
 public:
-    int maxDepth(TreeNode* root) {
-        if(root==NULL){
+    int func(TreeNode* root){
+
+        if(root == NULL){
             return 0;
         }
-        else{
-            int leftdepth = maxDepth(root->left);
-            int rightdepth = maxDepth(root->right);
+        else return 1+ max(func(root->left), func(root->right));
 
-            return max(leftdepth,rightdepth)+1;
-        }
+    }
+    int maxDepth(TreeNode* root) {
+        
+        int ans = func(root);
+        return ans;
     }
 };
