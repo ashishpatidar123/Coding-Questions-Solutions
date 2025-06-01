@@ -10,20 +10,19 @@
  * };
  */
 class Solution {
-private:
-    bool ismirror(TreeNode*A, TreeNode* B){
-        if(A==NULL && B==NULL){
-            return 1;
-        }
-        if(A==NULL || B==NULL){
-            return 0;
-        }
-
-        return (A->val==B->val && ismirror(A->left,B->left)
-                    && ismirror(A->right,B->right));
-}
 public:
+    bool func(TreeNode* root1, TreeNode* root2){
+
+        if(root1==NULL && root2==NULL) return true;
+        if(root1 == NULL || root2 == NULL) return false;
+        if(root1->val != root2->val) return false;
+        
+        return (root1->val == root2->val) && func(root1->left, root2->left) && func(root1->right, root2->right);
+
+    }
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        return ismirror(p,q);
+        
+        return func(p,q);
+
     }
 };
