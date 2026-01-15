@@ -1,25 +1,36 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        vector<char> ans;
-        for(int i=0; i<s.length(); i++){
-            if(s[i]>='A' && s[i]<='Z'){
-               ans.push_back(s[i]-'A'+'a');
-            }
-            if(s[i]>='0' && s[i]<='9'){
-                ans.push_back(s[i]);
-            }
-            if(s[i]>='a' && s[i]<='z'){
-                ans.push_back(s[i]);
-            }
-        }
+        
+        int n = s.length();
+
         int start = 0;
-        int end = ans.size()-1;
-        while(start<end){
-            if(ans[start++]!=ans[end--]){
-                return false;
+        int end = n-1;
+
+        while(end>start){
+            
+            char c1 = s[start];
+            char c2 = s[end];
+            if(((c1>= 'a' && c1 <= 'z') || (c1 >= 'A' && c1 <='Z') || (c1 >= '0' && c1<= '9')) && 
+                ((c2>= 'a' && c2 <= 'z') || (c2 >= 'A' && c2 <='Z') || (c2 >= '0' && c2 <= '9'))){
+
+                if(tolower(c1) != tolower(c2)){
+                    return false;
+                }
+                else{
+                    start++;
+                    end--;
+                }
             }
+            if((c1 < 'a'  || c1 >'z') && (c1 < 'A' || c1 > 'Z') && (c1 < '0' || c1 > '9')){
+                start++;
+            }
+            if((c2 < 'a' || c2 >'z') && (c2 < 'A' || c2 > 'Z') && (c2 < '0' || c2 > '9')){
+                end--;
+            }
+
         }
         return true;
+
     }
 };
