@@ -1,37 +1,58 @@
 class Solution {
 public:
+    int ans = 0;
+    void func(vector<int>&nums, int sum,  int n, int i, int target){
+        if(i == n){
+            if(sum == target){
+                ans++;
+               
+            }
+            return;
+        }
+        func(nums, sum + nums[i], n, i+1, target);
+        func(nums, sum-nums[i], n, i+1, target);
+    }
     int findTargetSumWays(vector<int>& nums, int target) {
         
-        int sum = 0;
         int n = nums.size();
-        if(n==1 && target>=0 && abs(nums[0])!=target){
-            return 0;
-        }
+        // func(nums, 0, n, 0, target);
+        // return ans;
+        int total = 0;
         for(int i=0; i<n; i++){
-            sum += nums[i];
+            total += nums[i];
         }
-        int sum2 = (sum-target)/2;
-        if((sum-target)%2!=0 || sum-target<0){
-            return 0;
-        }
-        vector<vector<int>>dp(n+1,vector<int>(sum2+1,0));
-        dp[0][0] = 1;
-        for(int i=1; i<=sum2; i++){
-            dp[0][i]=0;
-        }
-        for(int i=1; i<=n; i++){
-            dp[i][0] = 1;
-        }
-        for(int i=1; i<=n; i++){
-            for(int j=0; j<=sum2; j++){
-                if(nums[i-1]<=j){
-                    dp[i][j] = dp[i-1][j-nums[i-1]] + dp[i-1][j];
-                }
-                else{
-                    dp[i][j] = dp[i-1][j];
-                }
+        if(abs(target) > total) return 0;
+        // vector<vector<int>>dp(n+1, vector<int>(2*total+1,0));
+
+        // dp[0][total] = 1;
+
+        // for(int i=0; i<n; i++){
+        //     for(int s=0; s<=2*total; s++){
+        //         if(dp[i][s] > 0){
+        //             dp[i+1][s + nums[i]] += dp[i][s];
+        //             dp[i+1][s - nums[i]] += dp[i][s];
+        //         }
+        //     }
+            
+
+        // }
+
+        // return dp[n][target + total];
+
+        vector<int>dp(2*total+1,0);
+        dp[total]=1;
+
+        for(int i = 0; i < n; i++) {
+        vector<int> next(2 * total + 1, 0); // Temporary storage for current element
+        for(int s = 0; s <= 2 * total; s++) {
+            if(dp[s] > 0) {
+                next[s + nums[i]] += dp[s];
+                next[s - nums[i]] += dp[s];
             }
         }
-        return dp[n][sum2];
+        dp = next; // Update the main DP table for the next iteration
+    }
+        return dp[total+target];
+
     }
 };
