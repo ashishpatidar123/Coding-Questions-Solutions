@@ -1,47 +1,38 @@
 class Solution {
 public:
+    bool dfs(int node, vector<vector<int>>& graph, vector<int>& state){
+        if(state[node] == 1){
+            return false; // visiting and we found a cycle
+        }
+        if(state[node] == 2){
+            return true; // already marked safe
+        }
 
-    bool dfs(int node,vector<vector<int>>& graph,vector<int>&visited,vector<int>&path,vector<int>&safe){
-        
-        visited[node]=1;
-        path[node]=1;
-        safe[node]=0;
+        state[node] = 1; // visiting
 
-        for(auto v:graph[node]){
-            
-            if(path[v]){
-                safe[node]=0;
-                return true;
-            } 
-            
-            else if(visited[v]==0 && dfs(v,graph,visited,path,safe)){
-                safe[node]=0;
-                return true;
+        for(int v : graph[node]){
+            if(!dfs(v, graph, state)){
+                return false;
             }
         }
-        safe[node]=1;
-        path[node]=0;
-        return false;
 
+        state[node] = 2; // safe marked
+        return true;
     }
-    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
-        
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph){
+
         int n = graph.size();
-        vector<int>path(n,0);
-        vector<int>safe(n,0);
-        vector<int>visited(n,0);
+        // cycle detection logic only
+        vector<int>state(n, 0);
+        vector<int>safe;
+
+        for(int i=0; i<n; i++){
+            if(dfs(i, graph, state)){
+                safe.push_back(i);
+            }
+        }
         
-        for(int i=0; i<n; i++){
-            if(!visited[i]) dfs(i,graph,visited,path,safe);
-        }
 
-        vector<int>ans;
-
-        for(int i=0; i<n; i++){
-            if(safe[i]) ans.push_back(i);
-        }
-
-        return ans;
-
+        return safe;
     }
 };
