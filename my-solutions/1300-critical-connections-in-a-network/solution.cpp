@@ -1,63 +1,61 @@
 class Solution {
-private: 
-    void dfs(int node,int parent,vector<bool>&visited,vector<int>&disc,vector<int>&low,
-        unordered_map<int,vector<int>>&adj,vector<vector<int>>&bridges,int timer){
-            // mark visited
-            // make discovery time =  timer
-            // and lowest discovery time = timer
-            // increase the timer
-            visited[node]=true;
-            disc[node]=timer;
-            low[node]=timer;
-            timer++;
-            // traverse all the adjacent nodes
-            for(auto nbr:adj[node]){
-                // if nbr is equal to parent then move to next nbr
-                if(nbr == parent){
-                    continue;
-                }
-                // if nbr is not visited then call dfs for it
-                if(visited[nbr]==false){
-                    dfs(nbr,node,visited,disc,low,adj,bridges,timer);
-                    // after the dfs call returns 
-                    // update the lowest discovery time of the node 
-                    // by finding the lowest dicovery time among it's neighbours
-                    low[node] = min(low[nbr],low[node]);
-                    // if the lowest discovery time of the neighbour is greater
-                    // than the discovery time of the parent then it means
-                    // the nbr has no connections other than the parent
-                    // hence it's a bridge
-                    if(low[nbr]>disc[node]){
-                        bridges.push_back({nbr,node});
-                    }
+public:
+    int n;
+    vector<vector<int>>graph;
+    vector<vector<int>>critical;
+    vector<bool>visited;
+    vector<int>tin, low;
+    vector<int>parent;
+    int timer;
 
-                }
-                // if the nbr is visited then update the lowest discovery time of the node
-                // by finding the lowest discovery time among it's neighbours
-                else{
-                    low[node] = min(low[nbr],low[node]);
+    void dfs(int node, int p = -1){
+        visited[node] = true;
+        tin[node] = low[node] = timer++;
+
+        bool parent_skipped = false;
+
+        for(int v : graph[node]){
+            if(v == p && !parent_skipped){
+                parent_skipped = true;
+                continue;
+            }
+            if(visited[v]){
+                low[node] = min(low[node], tin[v]);
+            }
+            else{
+                dfs(v, node);
+                low[node] = min(low[node], low[v]);
+
+                if(low[v] > tin[node]){
+                    critical.push_back({node, v});
                 }
             }
         }
-public:
+    }
     vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
-        unordered_map<int,vector<int>>adj;
+        
+        int l = connections.size();
 
-        for(int i=0; i<connections.size(); i++){
+        graph.resize(n);
+
+        for(int i=0; i<l; i++){
             int u = connections[i][0];
             int v = connections[i][1];
 
-            adj[u].push_back(v);
-            adj[v].push_back(u);
+            graph[u].push_back(v);
+            graph[v].push_back(u);
         }
-        // maintain the discovery time and the lowest discovery time
-        vector<int>disc(n);
-        vector<int>low(n);
-        vector<bool>visited(n);
+        
+        visited.assign(n, false);
+        tin.assign(n, -1);
+        low.assign(n, -1);
+        timer = 0;
+        for(int i=0; i<n; i++){
+            if(!visited[i]){
+                dfs(i);
+            }
+        }
+        return critical;
 
-        int timer = 0;
-        vector<vector<int>> bridges;
-        dfs(0,-1,visited,disc,low,adj,bridges,timer);
-        return bridges;
     }
 };
