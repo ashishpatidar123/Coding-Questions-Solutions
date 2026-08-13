@@ -6,6 +6,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/0037-sudoku-solver)
 
 ## Array
+- [Accounts Merge](./my-solutions/721-accounts-merge)
 - [3Sum](./my-solutions/0015-3sum)
 - [3Sum Closest](./my-solutions/0016-3sum-closest)
 - [Combination Sum](./my-solutions/0039-combination-sum)
@@ -250,3 +251,6 @@ This repository contains my algorithmic solutions, automatically organized by to
 ## Z Algorithm
 - [Find the Index of the First Occurrence in a String](./my-solutions/0028-find-the-index-of-the-first-occurrence-in-a-string)
 
+
+## Union-Find
+- [Accounts Merge](./my-solutions/721-accounts-merge)
