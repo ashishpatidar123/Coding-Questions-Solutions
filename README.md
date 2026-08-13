@@ -1,2 +1,4 @@
-# Coding-Questions-Solutions
-Contains solutions of important problems
+# 🧑‍💻 My LeetCode Solutions
+
+This repository contains my algorithmic solutions, automatically organized by topic.
+
