@@ -18,7 +18,6 @@ def fetch_leetcode_data():
       }
     }
     """
-    # We add a User-Agent header to prevent the 403 Forbidden error
     req = urllib.request.Request(
         url, 
         data=json.dumps({"query": query}).encode("utf-8"), 
@@ -36,10 +35,16 @@ def generate_readme():
     leetcode_data = fetch_leetcode_data()
     
     topics = {}
+    target_dir = 'my-solutions'
     
-    # Scan local repository folders
-    for item in os.listdir('.'):
-        if not os.path.isdir(item) or item.startswith('.'):
+    if not os.path.exists(target_dir):
+        print(f"Directory '{target_dir}' not found in root!")
+        return
+
+    # Scan the my-solutions folder
+    for item in os.listdir(target_dir):
+        item_path = os.path.join(target_dir, item)
+        if not os.path.isdir(item_path) or item.startswith('.'):
             continue
             
         folder_name = item
@@ -57,7 +62,6 @@ def generate_readme():
             if not tags:
                 topics.setdefault("Uncategorized", []).append((problem['title'], folder_name))
             
-            # A single problem can have multiple tags (e.g., Array and Hash Table)
             for tag in tags:
                 topics.setdefault(tag['name'], []).append((problem['title'], folder_name))
 
@@ -69,9 +73,9 @@ def generate_readme():
         for topic in sorted(topics.keys()):
             f.write(f"## {topic}\n")
             for title, folder_name in sorted(topics[topic]):
-                # Make the link safe for markdown
+                # Generate relative path to the subfolder
                 safe_folder = urllib.parse.quote(folder_name)
-                f.write(f"- [{title}](./{safe_folder})\n")
+                f.write(f"- [{title}](./{target_dir}/{safe_folder})\n")
             f.write("\n")
             
     print("README.md generated successfully!")
