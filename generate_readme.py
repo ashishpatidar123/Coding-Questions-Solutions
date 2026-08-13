@@ -18,10 +18,14 @@ def fetch_leetcode_data():
       }
     }
     """
+    # We add a User-Agent header to prevent the 403 Forbidden error
     req = urllib.request.Request(
         url, 
         data=json.dumps({"query": query}).encode("utf-8"), 
-        headers={"Content-Type": "application/json"}
+        headers={
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
     )
     response = urllib.request.urlopen(req)
     data = json.loads(response.read())
