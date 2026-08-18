@@ -1,12 +1,12 @@
 name: Generate Topic-Wise README
 
 on:
-  workflow_dispatch: # Allows you to run it manually
+  workflow_dispatch: # Allows you to run it manually from the Actions tab
   push:
     branches:
-      - main
-    paths-ignore:
-      - 'README.md' # Prevents an infinite loop when the bot pushes the README
+      - main # Change to 'master' if that is your default branch
+    paths:
+      - 'my-solutions/**' # ONLY triggers when changes happen inside my-solutions
 
 permissions:
   contents: write
@@ -23,13 +23,18 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Ensure difficulty folders exist
+        run: |
+          mkdir -p my-solutions/Easy
+          mkdir -p my-solutions/Medium
+          mkdir -p my-solutions/Hard
+
       - name: Run README Generator
         run: python generate_readme.py
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "docs: auto-update topic-wise README" || echo "No changes to commit"
-          git push
+          git diff --quiet && git diff --staged --quiet || (git commit -m "docs: auto-update topic-wise README" && git push)
