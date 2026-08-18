@@ -1,9 +1,9 @@
 name: Sync Leetcode
 
 on:
-  workflow_dispatch: # Allows you to trigger the script manually
+  workflow_dispatch:
   schedule:
-    - cron: "0 8 * * 6" # Automatically runs once a week as a fallback
+    - cron: "0 8 * * 6"
 
 jobs:
   build:
@@ -15,5 +15,6 @@ jobs:
           github-token: ${{ github.token }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
-          destination-folder: my-solutions # Optional: puts all code in this folder
+          destination-folder: my-solutions
           verbose: true
+          filter-duplicate-secs: 0 # Forces checking without time restriction
