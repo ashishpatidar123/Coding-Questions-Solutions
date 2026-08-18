@@ -1,6 +1,6 @@
 {
-  "solved": 242,
-  "easy": 75,
+  "solved": 243,
+  "easy": 76,
   "medium": 143,
   "hard": 24,
   "solvedSlugs": [
@@ -245,6 +245,7 @@
     "maximum-subarray-sum-after-at-most-k-swaps",
     "frequency-balance-subarray",
     "check-good-integer",
-    "maximum-total-sum-of-k-selected-elements"
+    "maximum-total-sum-of-k-selected-elements",
+    "length-of-last-word"
   ]
 }
