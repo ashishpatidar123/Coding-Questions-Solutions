@@ -203,6 +203,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Valid Parentheses](./my-solutions/Easy/0020-valid-parentheses)
 
 ## String
+- [Length of Last Word](./my-solutions/Easy/0058-length-of-last-word)
 - [Add Binary](./my-solutions/Easy/0067-add-binary)
 - [Edit Distance](./my-solutions/Medium/0072-edit-distance)
 - [Find the Index of the First Occurrence in a String](./my-solutions/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string)
