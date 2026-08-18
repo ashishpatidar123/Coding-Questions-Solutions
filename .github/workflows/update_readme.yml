@@ -25,9 +25,9 @@ jobs:
 
       - name: Ensure difficulty folders exist
         run: |
-          mkdir -p my-solutions/Easy
-          mkdir -p my-solutions/Medium
-          mkdir -p my-solutions/Hard
+              mkdir -p my-solutions/Easy
+              mkdir -p my-solutions/Medium
+              mkdir -p my-solutions/Hard
 
       - name: Run README Generator
         run: python generate_readme.py
@@ -36,5 +36,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Pull any new changes (like extension pushes) before committing
+          git pull origin main --rebase || true
+          
           git add README.md
           git diff --quiet && git diff --staged --quiet || (git commit -m "docs: auto-update topic-wise README" && git push)
