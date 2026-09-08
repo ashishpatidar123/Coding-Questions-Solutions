@@ -37,8 +37,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Pull any new changes (like extension pushes) before committing
-          git pull origin main --rebase || true
-          
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "docs: auto-update topic-wise README" && git push)
+          git diff --quiet && git diff --staged --quiet || git commit -m "docs: auto-update topic-wise README"
+
+          # 2. Pull remote changes with rebase now that the working tree is clean
+          git pull origin main --rebase
+
+          git push
