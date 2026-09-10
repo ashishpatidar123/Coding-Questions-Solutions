@@ -1,12 +1,12 @@
 name: Generate Topic-Wise README
 
 on:
-  workflow_dispatch: # Allows you to run it manually from the Actions tab
+  workflow_dispatch: 
   push:
     branches:
-      - main # Change to 'master' if that is your default branch
+      - main 
     paths:
-      - 'my-solutions/**' # ONLY triggers when changes happen inside my-solutions
+      - 'my-solutions/**' 
 
 permissions:
   contents: write
@@ -17,30 +17,31 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Ensures full Git history is fetched for clean pulling
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
+      - name: Sync with Remote (Fixes Conflicts)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase
+
       - name: Ensure difficulty folders exist
         run: |
-              mkdir -p my-solutions/Easy
-              mkdir -p my-solutions/Medium
-              mkdir -p my-solutions/Hard
+          mkdir -p my-solutions/Easy
+          mkdir -p my-solutions/Medium
+          mkdir -p my-solutions/Hard
 
       - name: Run README Generator
         run: python generate_readme.py
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "docs: auto-update topic-wise README"
-
-          # 2. Pull remote changes with rebase now that the working tree is clean
-          git pull origin main --rebase
-
           git push
