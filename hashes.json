@@ -1,6 +1,7 @@
 {
   "count-good-cyclic-rotations": [
-    "94935b79b5b805c5195a73a130dddc7ffcb071d6e93a51cb1c7ab480818adb21"
+    "94935b79b5b805c5195a73a130dddc7ffcb071d6e93a51cb1c7ab480818adb21",
+    "205df3a9468ec6202b11a3f551c3769d9bcbb247ef96596ab4d0c6148d9d0014"
   ],
   "count-rotations-with-exactly-k-equal-adjacent-pairs": [
     "2fa13422879f907c2d75928201ccd4156151b0ee28bc28f6ee4dba981736fac6"
