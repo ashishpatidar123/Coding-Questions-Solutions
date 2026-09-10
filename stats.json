@@ -1,7 +1,7 @@
 {
-  "solved": 244,
+  "solved": 245,
   "easy": 77,
-  "medium": 143,
+  "medium": 144,
   "hard": 24,
   "solvedSlugs": [
     "two-sum",
@@ -247,6 +247,7 @@
     "check-good-integer",
     "maximum-total-sum-of-k-selected-elements",
     "length-of-last-word",
-    "count-rotations-with-exactly-k-equal-adjacent-pairs"
+    "count-rotations-with-exactly-k-equal-adjacent-pairs",
+    "count-good-cyclic-rotations"
   ]
 }
