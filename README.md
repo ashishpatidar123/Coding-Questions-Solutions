@@ -251,3 +251,6 @@ This repository contains my algorithmic solutions, automatically organized by to
 ## Z Algorithm
 - [Find the Index of the First Occurrence in a String](./my-solutions/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string)
 
+
+## Uncategorized
+- [Count Good Cyclic Rotations](./my-solutions/Medium/4412-count-good-cyclic-rotations)
