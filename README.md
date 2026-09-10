@@ -251,3 +251,6 @@ This repository contains my algorithmic solutions, automatically organized by to
 ## Z Algorithm
 - [Find the Index of the First Occurrence in a String](./my-solutions/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string)
 
+
+## Uncategorized
+- [Count Rotations With Exactly K Equal Adjacent Pairs](./my-solutions/Easy/4411-count-rotations-with-exactly-k-equal-adjacent-pairs)
