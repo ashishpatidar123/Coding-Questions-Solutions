@@ -735,5 +735,8 @@
   ],
   "maximum-total-sum-of-k-selected-elements": [
     "cd5ba46a083d83e6718e7b9c60eb1d2d73c6b907bdd83de9f0038e7c32862bb4"
+  ],
+  "count-robot-groups": [
+    "a617e08110899e932bd5627ba12b41b2169a3348b45c010021ee9dd9a823f79e"
   ]
 }
