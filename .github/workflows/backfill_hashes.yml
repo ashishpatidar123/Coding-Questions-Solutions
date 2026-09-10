@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run backfill script
-        run: node .github/backfill_hashes.js
+        run: node backfill_hashes.js
 
       - name: Commit hashes.json if changed
         run: |
