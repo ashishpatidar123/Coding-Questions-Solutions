@@ -38,7 +38,7 @@ jobs:
           mkdir -p my-solutions/Hard
 
       - name: Run README Generator
-        run: python generate_readme.py
+        run: python .github/scripts/generate_readme.py
 
       - name: Commit and Push changes
         run: |
