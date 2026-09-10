@@ -253,4 +253,5 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 
 ## Uncategorized
+- [Count Good Cyclic Rotations](./my-solutions/Medium/4412-count-good-cyclic-rotations)
 - [Count Rotations With Exactly K Equal Adjacent Pairs](./my-solutions/Easy/4411-count-rotations-with-exactly-k-equal-adjacent-pairs)
