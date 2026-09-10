@@ -1,0 +1,32 @@
+name: Backfill solution hashes
+
+# Manual trigger only — run this once from the Actions tab after adding
+# the extension's hashing logic, to grandfather in solutions that already
+# exist in the repo. Safe to re-run any time; it only adds hashes.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run backfill script
+        run: node .github/scripts/backfill-hashes.js
+
+      - name: Commit hashes.json if changed
+        run: |
+          if git diff --quiet -- hashes.json; then
+            echo "No changes to hashes.json — nothing to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add hashes.json
+            git commit -m "chore: backfill solution hashes from existing solutions"
+            git push
+          fi
