@@ -203,12 +203,12 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Valid Parentheses](./my-solutions/Easy/0020-valid-parentheses)
 
 ## String
-- [Length of Last Word](./my-solutions/Easy/0058-length-of-last-word)
 - [Add Binary](./my-solutions/Easy/0067-add-binary)
 - [Edit Distance](./my-solutions/Medium/0072-edit-distance)
 - [Find the Index of the First Occurrence in a String](./my-solutions/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string)
 - [Generate Parentheses](./my-solutions/Medium/0022-generate-parentheses)
 - [Group Anagrams](./my-solutions/Medium/0049-group-anagrams)
+- [Length of Last Word](./my-solutions/Easy/0058-length-of-last-word)
 - [Letter Combinations of a Phone Number](./my-solutions/Medium/0017-letter-combinations-of-a-phone-number)
 - [Longest Common Prefix](./my-solutions/Easy/0014-longest-common-prefix)
 - [Longest Palindromic Substring](./my-solutions/Medium/0005-longest-palindromic-substring)
@@ -251,7 +251,3 @@ This repository contains my algorithmic solutions, automatically organized by to
 ## Z Algorithm
 - [Find the Index of the First Occurrence in a String](./my-solutions/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string)
 
-
-## Uncategorized
-- [Count Good Cyclic Rotations](./my-solutions/Medium/4412-count-good-cyclic-rotations)
-- [Count Rotations With Exactly K Equal Adjacent Pairs](./my-solutions/Easy/4411-count-rotations-with-exactly-k-equal-adjacent-pairs)
