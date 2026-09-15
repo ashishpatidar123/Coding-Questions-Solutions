@@ -1,8 +1,8 @@
 {
-  "solved": 246,
+  "solved": 247,
   "easy": 77,
   "medium": 145,
-  "hard": 24,
+  "hard": 25,
   "solvedSlugs": [
     "two-sum",
     "add-two-numbers",
@@ -249,6 +249,7 @@
     "length-of-last-word",
     "count-rotations-with-exactly-k-equal-adjacent-pairs",
     "count-good-cyclic-rotations",
-    "count-robot-groups"
+    "count-robot-groups",
+    "minimum-cost-path-with-at-most-k-turns"
   ]
 }
