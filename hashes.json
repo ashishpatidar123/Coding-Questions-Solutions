@@ -738,5 +738,8 @@
   ],
   "count-robot-groups": [
     "a617e08110899e932bd5627ba12b41b2169a3348b45c010021ee9dd9a823f79e"
+  ],
+  "minimum-cost-path-with-at-most-k-turns": [
+    "ae0d3b72a8b6666f61e9b5831f4c60dcc9b7dec04633759b70e0f127478dd24c"
   ]
 }
