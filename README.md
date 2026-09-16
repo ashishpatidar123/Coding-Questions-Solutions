@@ -253,4 +253,5 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 
 ## Uncategorized
+- [Cyclically Shift Rows and Columns](./my-solutions/Easy/4416-cyclically-shift-rows-and-columns)
 - [Minimum Cost Path With At Most K Turns](./my-solutions/Hard/4367-minimum-cost-path-with-at-most-k-turns)
