@@ -1,6 +1,6 @@
 {
-  "solved": 247,
-  "easy": 77,
+  "solved": 248,
+  "easy": 78,
   "medium": 145,
   "hard": 25,
   "solvedSlugs": [
@@ -250,6 +250,7 @@
     "count-rotations-with-exactly-k-equal-adjacent-pairs",
     "count-good-cyclic-rotations",
     "count-robot-groups",
-    "minimum-cost-path-with-at-most-k-turns"
+    "minimum-cost-path-with-at-most-k-turns",
+    "cyclically-shift-rows-and-columns"
   ]
 }
