@@ -1,7 +1,7 @@
 {
-  "solved": 248,
+  "solved": 249,
   "easy": 78,
-  "medium": 145,
+  "medium": 146,
   "hard": 25,
   "solvedSlugs": [
     "two-sum",
@@ -251,6 +251,7 @@
     "count-good-cyclic-rotations",
     "count-robot-groups",
     "minimum-cost-path-with-at-most-k-turns",
-    "cyclically-shift-rows-and-columns"
+    "cyclically-shift-rows-and-columns",
+    "minimum-operations-to-make-every-element-palindromic"
   ]
 }
