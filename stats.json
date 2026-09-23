@@ -1,6 +1,6 @@
 {
-  "solved": 250,
-  "easy": 78,
+  "solved": 251,
+  "easy": 79,
   "medium": 147,
   "hard": 25,
   "solvedSlugs": [
@@ -253,6 +253,7 @@
     "minimum-cost-path-with-at-most-k-turns",
     "cyclically-shift-rows-and-columns",
     "minimum-operations-to-make-every-element-palindromic",
-    "count-shadow-pairs-i"
+    "count-shadow-pairs-i",
+    "number-of-intersecting-interval-pairs-i"
   ]
 }
