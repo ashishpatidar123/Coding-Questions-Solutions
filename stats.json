@@ -1,7 +1,7 @@
 {
-  "solved": 251,
+  "solved": 252,
   "easy": 79,
-  "medium": 147,
+  "medium": 148,
   "hard": 25,
   "solvedSlugs": [
     "two-sum",
@@ -254,6 +254,7 @@
     "cyclically-shift-rows-and-columns",
     "minimum-operations-to-make-every-element-palindromic",
     "count-shadow-pairs-i",
-    "number-of-intersecting-interval-pairs-i"
+    "number-of-intersecting-interval-pairs-i",
+    "number-of-intersecting-interval-pairs-ii"
   ]
 }
