@@ -253,6 +253,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 
 ## Uncategorized
+- [Number of Intersecting Interval Pairs I](./my-solutions/Easy/4418-number-of-intersecting-interval-pairs-i)
 - [Count Shadow Pairs I](./my-solutions/Medium/4328-count-shadow-pairs-i)
 - [Minimum Operations to Make Every Element Palindromic](./my-solutions/Medium/4344-minimum-operations-to-make-every-element-palindromic)
 - [Cyclically Shift Rows and Columns](./my-solutions/Easy/4416-cyclically-shift-rows-and-columns)
