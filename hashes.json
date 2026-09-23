@@ -756,5 +756,8 @@
   "number-of-intersecting-interval-pairs-i": [
     "87313a73649670319799db279536b428ad3a97c6b93a7c642c15cea4fb5a171e",
     "44938c50dd4281bbf0e509f9500976ebddfec1dc572244194dc4d86bf7e26a08"
+  ],
+  "number-of-intersecting-interval-pairs-ii": [
+    "d369323f2dbddcef3454cf78fe15b3ed38ff7da450b78d1604a826bb0972bd85"
   ]
 }
