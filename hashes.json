@@ -752,5 +752,8 @@
   "count-shadow-pairs-i": [
     "5076d7e79b6c34b046126ef2b9146f2cc88189de750d8419b68490a606c6b99e",
     "3f13bd7ae8ad22a6d2b42be6018cdf188a25f40d31c4c068a705402eae172455"
+  ],
+  "number-of-intersecting-interval-pairs-i": [
+    "87313a73649670319799db279536b428ad3a97c6b93a7c642c15cea4fb5a171e"
   ]
 }
