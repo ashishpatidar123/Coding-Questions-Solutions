@@ -6,6 +6,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Array
+- [Satisfiability of Equality Equations](./my-solutions/Medium/1032-satisfiability-of-equality-equations)
 - [Accounts Merge](./my-solutions/Medium/0721-accounts-merge)
 - [3Sum](./my-solutions/Medium/0015-3sum)
 - [3Sum Closest](./my-solutions/Medium/0016-3sum-closest)
@@ -264,3 +265,6 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 ## Union-Find
 - [Accounts Merge](./my-solutions/Medium/0721-accounts-merge)
+
+## Graph Theory
+- [Satisfiability of Equality Equations](./my-solutions/Medium/1032-satisfiability-of-equality-equations)
