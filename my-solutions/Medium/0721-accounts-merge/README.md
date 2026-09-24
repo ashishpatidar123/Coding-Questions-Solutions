@@ -1,3 +1,8 @@
+# Accounts Merge
+
+### Difficulty: Medium
+### Topics: Array, Hash Table, String, Depth-First Search, Breadth-First Search, Union-Find, Sorting
+
 <p>Given a list of <code>accounts</code> where each element <code>accounts[i]</code> is a list of strings, where the first element <code>accounts[i][0]</code> is a name, and the rest of the elements are <strong>emails</strong> representing emails of the account.</p>
 
 <p>Now, we would like to merge these accounts. Two accounts definitely belong to the same person if there is some common email to both accounts. Note that even if two accounts have the same name, they may belong to different people as people could have the same name. A person can have any number of accounts initially, but all of their accounts definitely have the same name.</p>
