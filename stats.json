@@ -1,7 +1,7 @@
 {
-  "solved": 252,
+  "solved": 253,
   "easy": 79,
-  "medium": 148,
+  "medium": 149,
   "hard": 25,
   "solvedSlugs": [
     "two-sum",
@@ -255,6 +255,7 @@
     "minimum-operations-to-make-every-element-palindromic",
     "count-shadow-pairs-i",
     "number-of-intersecting-interval-pairs-i",
-    "number-of-intersecting-interval-pairs-ii"
+    "number-of-intersecting-interval-pairs-ii",
+    "maximum-pulse-value-after-one-subarray-rotation"
   ]
 }
