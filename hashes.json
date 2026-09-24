@@ -759,5 +759,8 @@
   ],
   "number-of-intersecting-interval-pairs-ii": [
     "d369323f2dbddcef3454cf78fe15b3ed38ff7da450b78d1604a826bb0972bd85"
+  ],
+  "maximum-pulse-value-after-one-subarray-rotation": [
+    "99639dc75896529e612db7dba56ebd0d85d2c4750328e1d0aaa889d0ecb72d34"
   ]
 }
