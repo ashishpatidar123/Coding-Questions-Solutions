@@ -6,6 +6,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Array
+- [Accounts Merge](./my-solutions/Medium/0721-accounts-merge)
 - [3Sum](./my-solutions/Medium/0015-3sum)
 - [3Sum Closest](./my-solutions/Medium/0016-3sum-closest)
 - [Combination Sum](./my-solutions/Medium/0039-combination-sum)
@@ -260,3 +261,6 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Minimum Operations to Make Every Element Palindromic](./my-solutions/Medium/4344-minimum-operations-to-make-every-element-palindromic)
 - [Cyclically Shift Rows and Columns](./my-solutions/Easy/4416-cyclically-shift-rows-and-columns)
 - [Minimum Cost Path With At Most K Turns](./my-solutions/Hard/4367-minimum-cost-path-with-at-most-k-turns)
+
+## Union-Find
+- [Accounts Merge](./my-solutions/Medium/0721-accounts-merge)
