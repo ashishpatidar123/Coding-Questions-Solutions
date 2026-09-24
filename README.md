@@ -253,6 +253,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 
 ## Uncategorized
+- [Maximum Pulse Value After One Subarray Rotation](./my-solutions/Medium/4196-maximum-pulse-value-after-one-subarray-rotation)
 - [Number of Intersecting Interval Pairs II](./my-solutions/Medium/4417-number-of-intersecting-interval-pairs-ii)
 - [Number of Intersecting Interval Pairs I](./my-solutions/Easy/4418-number-of-intersecting-interval-pairs-i)
 - [Count Shadow Pairs I](./my-solutions/Medium/4328-count-shadow-pairs-i)
