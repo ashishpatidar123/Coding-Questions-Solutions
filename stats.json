@@ -1,8 +1,8 @@
 {
-  "solved": 256,
+  "solved": 257,
   "easy": 79,
   "medium": 151,
-  "hard": 26,
+  "hard": 27,
   "solvedSlugs": [
     "two-sum",
     "add-two-numbers",
@@ -259,6 +259,7 @@
     "maximum-pulse-value-after-one-subarray-rotation",
     "satisfiability-of-equality-equations",
     "lexicographically-smallest-equivalent-string",
-    "similar-string-groups"
+    "similar-string-groups",
+    "largest-component-size-by-common-factor"
   ]
 }
