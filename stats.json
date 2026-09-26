@@ -1,8 +1,8 @@
 {
-  "solved": 255,
+  "solved": 256,
   "easy": 79,
   "medium": 151,
-  "hard": 25,
+  "hard": 26,
   "solvedSlugs": [
     "two-sum",
     "add-two-numbers",
@@ -258,6 +258,7 @@
     "number-of-intersecting-interval-pairs-ii",
     "maximum-pulse-value-after-one-subarray-rotation",
     "satisfiability-of-equality-equations",
-    "lexicographically-smallest-equivalent-string"
+    "lexicographically-smallest-equivalent-string",
+    "similar-string-groups"
   ]
 }
