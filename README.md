@@ -6,6 +6,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Array
+- [Largest Component Size by Common Factor](./my-solutions/Hard/0989-largest-component-size-by-common-factor)
 - [Similar String Groups](./my-solutions/Hard/0869-similar-string-groups)
 - [Satisfiability of Equality Equations](./my-solutions/Medium/1032-satisfiability-of-equality-equations)
 - [Accounts Merge](./my-solutions/Medium/0721-accounts-merge)
@@ -270,3 +271,9 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 ## Graph Theory
 - [Satisfiability of Equality Equations](./my-solutions/Medium/1032-satisfiability-of-equality-equations)
+
+## Number Theory
+- [Largest Component Size by Common Factor](./my-solutions/Hard/0989-largest-component-size-by-common-factor)
+
+## Prime Factorization
+- [Largest Component Size by Common Factor](./my-solutions/Hard/0989-largest-component-size-by-common-factor)
