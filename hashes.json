@@ -772,5 +772,8 @@
   "lexicographically-smallest-equivalent-string": [
     "e26f12d338fc7e6df346201ccba04321c98b335b44a4630510bb1b2129bbfcef",
     "cd2974347c8fec69ce357c1f0291fe04bf137a0038b37582fd19463b22c5733c"
+  ],
+  "similar-string-groups": [
+    "dce8e22879b718204dbdf1108befe6c8503293489a8f89d3bbe1ffe504819f54"
   ]
 }
