@@ -6,6 +6,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Array
+- [Similar String Groups](./my-solutions/Hard/0869-similar-string-groups)
 - [Satisfiability of Equality Equations](./my-solutions/Medium/1032-satisfiability-of-equality-equations)
 - [Accounts Merge](./my-solutions/Medium/0721-accounts-merge)
 - [3Sum](./my-solutions/Medium/0015-3sum)
