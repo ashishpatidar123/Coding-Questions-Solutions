@@ -776,5 +776,8 @@
   "similar-string-groups": [
     "dce8e22879b718204dbdf1108befe6c8503293489a8f89d3bbe1ffe504819f54",
     "f7f37c06d911d8312d0cc93dfc872899862f00b91b287115bfd82d0f0cf668dd"
+  ],
+  "largest-component-size-by-common-factor": [
+    "7317f722097c0b3ed4cf3e97f5705d97b48240eddaf5fd16aca9551118b4da1c"
   ]
 }
