@@ -768,5 +768,8 @@
   "satisfiability-of-equality-equations": [
     "0a7ebe512d9a99e8edf2dae546127acc9fc9cdf0ce608bb952364742f4bdd1cc",
     "fc90e0cfdfdd6bb5f6922f1f5d7c5561e281b183081b87d42ecb95033796e745"
+  ],
+  "lexicographically-smallest-equivalent-string": [
+    "e26f12d338fc7e6df346201ccba04321c98b335b44a4630510bb1b2129bbfcef"
   ]
 }
