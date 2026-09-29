@@ -6,6 +6,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Array
+- [Regions Cut By Slashes](./my-solutions/Medium/0999-regions-cut-by-slashes)
 - [Largest Component Size by Common Factor](./my-solutions/Hard/0989-largest-component-size-by-common-factor)
 - [Similar String Groups](./my-solutions/Hard/0869-similar-string-groups)
 - [Satisfiability of Equality Equations](./my-solutions/Medium/1032-satisfiability-of-equality-equations)
@@ -277,3 +278,6 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 ## Prime Factorization
 - [Largest Component Size by Common Factor](./my-solutions/Hard/0989-largest-component-size-by-common-factor)
+
+## Planar Graph
+- [Regions Cut By Slashes](./my-solutions/Medium/0999-regions-cut-by-slashes)
