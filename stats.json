@@ -1,7 +1,7 @@
 {
-  "solved": 257,
+  "solved": 258,
   "easy": 79,
-  "medium": 151,
+  "medium": 152,
   "hard": 27,
   "solvedSlugs": [
     "two-sum",
@@ -260,6 +260,7 @@
     "satisfiability-of-equality-equations",
     "lexicographically-smallest-equivalent-string",
     "similar-string-groups",
-    "largest-component-size-by-common-factor"
+    "largest-component-size-by-common-factor",
+    "regions-cut-by-slashes"
   ]
 }
