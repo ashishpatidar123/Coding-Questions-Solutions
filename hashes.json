@@ -780,5 +780,8 @@
   "largest-component-size-by-common-factor": [
     "7317f722097c0b3ed4cf3e97f5705d97b48240eddaf5fd16aca9551118b4da1c",
     "4c2f9c8c1cdee66d5007260b31a9b4ce6bdfbff75c77a88d52b32759110fc445"
+  ],
+  "regions-cut-by-slashes": [
+    "d4b8eb9666c2b4177ab96b14e2f24bebdbb697b601d95d1a782b95692bb927b6"
   ]
 }
