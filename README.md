@@ -92,6 +92,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Depth-First Search
+- [Redundant Connection](./my-solutions/Medium/0684-redundant-connection)
 - [Binary Tree Inorder Traversal](./my-solutions/Easy/0094-binary-tree-inorder-traversal)
 - [Same Tree](./my-solutions/Easy/0100-same-tree)
 - [Validate Binary Search Tree](./my-solutions/Medium/0098-validate-binary-search-tree)
