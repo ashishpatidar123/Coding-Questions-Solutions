@@ -783,5 +783,8 @@
   ],
   "regions-cut-by-slashes": [
     "d4b8eb9666c2b4177ab96b14e2f24bebdbb697b601d95d1a782b95692bb927b6"
+  ],
+  "redundant-connection": [
+    "9fb0f850c7e41fba676c53185705e0ded08a200b1343181052f75312a5db5e8c"
   ]
 }
