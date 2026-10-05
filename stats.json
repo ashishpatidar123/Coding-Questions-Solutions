@@ -1,6 +1,6 @@
 {
-  "solved": 262,
-  "easy": 79,
+  "solved": 263,
+  "easy": 80,
   "medium": 156,
   "hard": 27,
   "solvedSlugs": [
@@ -265,6 +265,7 @@
     "redundant-connection",
     "count-the-number-of-complete-components",
     "simplify-path",
-    "clone-graph"
+    "clone-graph",
+    "diameter-of-binary-tree"
   ]
 }
