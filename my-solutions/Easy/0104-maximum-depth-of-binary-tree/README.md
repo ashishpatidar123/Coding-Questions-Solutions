@@ -1,3 +1,8 @@
+# Maximum Depth of Binary Tree
+
+### Difficulty: Easy
+### Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+
 <p>Given the <code>root</code> of a binary tree, return <em>its maximum depth</em>.</p>
 
 <p>A binary tree&#39;s <strong>maximum depth</strong>&nbsp;is the number of nodes along the longest path from the root node down to the farthest leaf node.</p>
