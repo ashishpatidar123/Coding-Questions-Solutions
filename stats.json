@@ -1,7 +1,7 @@
 {
-  "solved": 263,
+  "solved": 264,
   "easy": 80,
-  "medium": 156,
+  "medium": 157,
   "hard": 27,
   "solvedSlugs": [
     "two-sum",
@@ -266,6 +266,7 @@
     "count-the-number-of-complete-components",
     "simplify-path",
     "clone-graph",
-    "diameter-of-binary-tree"
+    "diameter-of-binary-tree",
+    "lowest-common-ancestor-of-a-binary-tree"
   ]
 }
