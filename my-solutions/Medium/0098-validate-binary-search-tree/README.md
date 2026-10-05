@@ -1,3 +1,8 @@
+# Validate Binary Search Tree
+
+### Difficulty: Medium
+### Topics: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+
 <p>Given the <code>root</code> of a binary tree, <em>determine if it is a valid binary search tree (BST)</em>.</p>
 
 <p>A <strong>valid BST</strong> is defined as follows:</p>
