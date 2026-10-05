@@ -236,6 +236,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Find the Index of the First Occurrence in a String](./my-solutions/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string)
 
 ## Tree
+- [Lowest Common Ancestor of a Binary Tree](./my-solutions/Medium/0236-lowest-common-ancestor-of-a-binary-tree)
 - [Diameter of Binary Tree](./my-solutions/Easy/0543-diameter-of-binary-tree)
 - [Maximum Depth of Binary Tree](./my-solutions/Easy/0104-maximum-depth-of-binary-tree)
 - [Binary Tree Level Order Traversal](./my-solutions/Medium/0102-binary-tree-level-order-traversal)
@@ -299,3 +300,9 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 ## DP on Trees
 - [Diameter of Binary Tree](./my-solutions/Easy/0543-diameter-of-binary-tree)
+
+## Binary Lifting
+- [Lowest Common Ancestor of a Binary Tree](./my-solutions/Medium/0236-lowest-common-ancestor-of-a-binary-tree)
+
+## Lowest Common Ancestor
+- [Lowest Common Ancestor of a Binary Tree](./my-solutions/Medium/0236-lowest-common-ancestor-of-a-binary-tree)
