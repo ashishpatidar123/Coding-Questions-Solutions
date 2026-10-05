@@ -1,7 +1,7 @@
 {
-  "solved": 264,
+  "solved": 265,
   "easy": 80,
-  "medium": 157,
+  "medium": 158,
   "hard": 27,
   "solvedSlugs": [
     "two-sum",
@@ -267,6 +267,7 @@
     "simplify-path",
     "clone-graph",
     "diameter-of-binary-tree",
-    "lowest-common-ancestor-of-a-binary-tree"
+    "lowest-common-ancestor-of-a-binary-tree",
+    "find-all-anagrams-in-a-string"
   ]
 }
