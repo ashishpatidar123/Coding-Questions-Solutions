@@ -236,6 +236,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Find the Index of the First Occurrence in a String](./my-solutions/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string)
 
 ## Tree
+- [Binary Tree Level Order Traversal](./my-solutions/Medium/0102-binary-tree-level-order-traversal)
 - [Binary Tree Inorder Traversal](./my-solutions/Easy/0094-binary-tree-inorder-traversal)
 - [Same Tree](./my-solutions/Easy/0100-same-tree)
 - [Validate Binary Search Tree](./my-solutions/Medium/0098-validate-binary-search-tree)
