@@ -812,5 +812,8 @@
   "lowest-common-ancestor-of-a-binary-tree": [
     "2f390cf22e49f31999c0792ccbe1dcfb436ae04a5aa59a87fc4fe9dd3f7b17c9",
     "b0ce21d49b8a093c20c4a65622d7886596b604e81e24bd3f27d71b56e975e695"
+  ],
+  "find-all-anagrams-in-a-string": [
+    "ea7b79f809644add0ce6e7670a1986bef3e03271cdbbe361432b3eef630bebb1"
   ]
 }
