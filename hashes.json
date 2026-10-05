@@ -790,5 +790,8 @@
   "count-the-number-of-complete-components": [
     "29a4eae1ec0a2ecaffe3ec0cd6f96fadde2b7d0d1cb0c9b03b679ea1c5d95b7e",
     "2347bf06126db5e1d059bab2bb93b07aac55ec448e4685c23c772cb4995451cb"
+  ],
+  "simplify-path": [
+    "ba32e5a32b14495d8d59ae81c5f155e36a8520a735fb46db6edf69b4b0af1600"
   ]
 }
