@@ -1,7 +1,7 @@
 {
-  "solved": 260,
+  "solved": 261,
   "easy": 79,
-  "medium": 154,
+  "medium": 155,
   "hard": 27,
   "solvedSlugs": [
     "two-sum",
@@ -263,6 +263,7 @@
     "largest-component-size-by-common-factor",
     "regions-cut-by-slashes",
     "redundant-connection",
-    "count-the-number-of-complete-components"
+    "count-the-number-of-complete-components",
+    "simplify-path"
   ]
 }
