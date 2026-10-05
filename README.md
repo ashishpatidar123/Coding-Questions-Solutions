@@ -120,6 +120,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Wildcard Matching](./my-solutions/Hard/0044-wildcard-matching)
 
 ## Hash Table
+- [Clone Graph](./my-solutions/Medium/0133-clone-graph)
 - [Group Anagrams](./my-solutions/Medium/0049-group-anagrams)
 - [Letter Combinations of a Phone Number](./my-solutions/Medium/0017-letter-combinations-of-a-phone-number)
 - [Longest Substring Without Repeating Characters](./my-solutions/Medium/0003-longest-substring-without-repeating-characters)
