@@ -92,6 +92,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Depth-First Search
+- [Course Schedule](./my-solutions/Medium/0207-course-schedule)
 - [Count the Number of Complete Components](./my-solutions/Medium/2793-count-the-number-of-complete-components)
 - [Redundant Connection](./my-solutions/Medium/0684-redundant-connection)
 - [Binary Tree Inorder Traversal](./my-solutions/Easy/0094-binary-tree-inorder-traversal)
@@ -284,3 +285,9 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 ## Planar Graph
 - [Regions Cut By Slashes](./my-solutions/Medium/0999-regions-cut-by-slashes)
+
+## Topological Sort
+- [Course Schedule](./my-solutions/Medium/0207-course-schedule)
+
+## Directed Acyclic Graph
+- [Course Schedule](./my-solutions/Medium/0207-course-schedule)
