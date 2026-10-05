@@ -210,6 +210,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Valid Parentheses](./my-solutions/Easy/0020-valid-parentheses)
 
 ## String
+- [Simplify Path](./my-solutions/Medium/0071-simplify-path)
 - [Lexicographically Smallest Equivalent String](./my-solutions/Medium/1058-lexicographically-smallest-equivalent-string)
 - [Add Binary](./my-solutions/Easy/0067-add-binary)
 - [Edit Distance](./my-solutions/Medium/0072-edit-distance)
