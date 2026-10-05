@@ -1,7 +1,7 @@
 {
-  "solved": 261,
+  "solved": 262,
   "easy": 79,
-  "medium": 155,
+  "medium": 156,
   "hard": 27,
   "solvedSlugs": [
     "two-sum",
@@ -264,6 +264,7 @@
     "regions-cut-by-slashes",
     "redundant-connection",
     "count-the-number-of-complete-components",
-    "simplify-path"
+    "simplify-path",
+    "clone-graph"
   ]
 }
