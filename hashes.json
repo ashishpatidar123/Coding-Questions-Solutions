@@ -407,7 +407,8 @@
   ],
   "validate-binary-search-tree": [
     "a1326d7255407b93b5adf64911a3b478b24f9bfb4a3f4c2abb74f1da6a46c37e",
-    "89abb122b9e5b0b5e28a7f7bf1ef0801eac5a36fce7a0d50d00964990b719ffe"
+    "89abb122b9e5b0b5e28a7f7bf1ef0801eac5a36fce7a0d50d00964990b719ffe",
+    "2eedbab5de5ea25b72f17f7e1f0e232cf63751f41592af67d6013d9a3d20cab7"
   ],
   "binary-tree-level-order-traversal": [
     "33358ebf06830322beb5575b893536f6e4c22820ee514dd57da8e406d96a282f",
