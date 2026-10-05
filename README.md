@@ -92,6 +92,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Depth-First Search
+- [Course Schedule II](./my-solutions/Medium/0210-course-schedule-ii)
 - [Course Schedule](./my-solutions/Medium/0207-course-schedule)
 - [Count the Number of Complete Components](./my-solutions/Medium/2793-count-the-number-of-complete-components)
 - [Redundant Connection](./my-solutions/Medium/0684-redundant-connection)
