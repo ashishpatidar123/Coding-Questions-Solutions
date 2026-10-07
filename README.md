@@ -6,6 +6,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Array
+- [Design HashMap](./my-solutions/Easy/0817-design-hashmap)
 - [Daily Temperatures](./my-solutions/Medium/0739-daily-temperatures)
 - [Coin Change](./my-solutions/Medium/0322-coin-change)
 - [Regions Cut By Slashes](./my-solutions/Medium/0999-regions-cut-by-slashes)
@@ -315,3 +316,9 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 ## Complete Knapsack
 - [Coin Change](./my-solutions/Medium/0322-coin-change)
+
+## Design
+- [Design HashMap](./my-solutions/Easy/0817-design-hashmap)
+
+## Hash Function
+- [Design HashMap](./my-solutions/Easy/0817-design-hashmap)
