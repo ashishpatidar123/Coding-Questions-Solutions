@@ -1,6 +1,6 @@
 {
-  "solved": 266,
-  "easy": 80,
+  "solved": 267,
+  "easy": 81,
   "medium": 159,
   "hard": 27,
   "solvedSlugs": [
@@ -269,6 +269,7 @@
     "diameter-of-binary-tree",
     "lowest-common-ancestor-of-a-binary-tree",
     "find-all-anagrams-in-a-string",
-    "daily-temperatures"
+    "daily-temperatures",
+    "design-hashmap"
   ]
 }
