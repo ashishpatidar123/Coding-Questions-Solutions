@@ -6,6 +6,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Array
+- [Coin Change](./my-solutions/Medium/0322-coin-change)
 - [Regions Cut By Slashes](./my-solutions/Medium/0999-regions-cut-by-slashes)
 - [Largest Component Size by Common Factor](./my-solutions/Hard/0989-largest-component-size-by-common-factor)
 - [Similar String Groups](./my-solutions/Hard/0869-similar-string-groups)
@@ -307,3 +308,9 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 ## Lowest Common Ancestor
 - [Lowest Common Ancestor of a Binary Tree](./my-solutions/Medium/0236-lowest-common-ancestor-of-a-binary-tree)
+
+## Knapsack Problem
+- [Coin Change](./my-solutions/Medium/0322-coin-change)
+
+## Complete Knapsack
+- [Coin Change](./my-solutions/Medium/0322-coin-change)
