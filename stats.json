@@ -1,7 +1,7 @@
 {
-  "solved": 267,
+  "solved": 268,
   "easy": 81,
-  "medium": 159,
+  "medium": 160,
   "hard": 27,
   "solvedSlugs": [
     "two-sum",
@@ -270,6 +270,7 @@
     "lowest-common-ancestor-of-a-binary-tree",
     "find-all-anagrams-in-a-string",
     "daily-temperatures",
-    "design-hashmap"
+    "design-hashmap",
+    "house-robber-ii"
   ]
 }
