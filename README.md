@@ -97,6 +97,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Depth-First Search
+- [Network Delay Time](./my-solutions/Medium/0744-network-delay-time)
 - [Course Schedule II](./my-solutions/Medium/0210-course-schedule-ii)
 - [Course Schedule](./my-solutions/Medium/0207-course-schedule)
 - [Count the Number of Complete Components](./my-solutions/Medium/2793-count-the-number-of-complete-components)
@@ -324,3 +325,12 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 ## Hash Function
 - [Design HashMap](./my-solutions/Easy/0817-design-hashmap)
+
+## Heap (Priority Queue)
+- [Network Delay Time](./my-solutions/Medium/0744-network-delay-time)
+
+## Shortest Path
+- [Network Delay Time](./my-solutions/Medium/0744-network-delay-time)
+
+## Dijkstra's Algorithm
+- [Network Delay Time](./my-solutions/Medium/0744-network-delay-time)
