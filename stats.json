@@ -1,7 +1,7 @@
 {
-  "solved": 268,
+  "solved": 269,
   "easy": 81,
-  "medium": 160,
+  "medium": 161,
   "hard": 27,
   "solvedSlugs": [
     "two-sum",
@@ -271,6 +271,7 @@
     "find-all-anagrams-in-a-string",
     "daily-temperatures",
     "design-hashmap",
-    "house-robber-ii"
+    "house-robber-ii",
+    "network-delay-time"
   ]
 }
