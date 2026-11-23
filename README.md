@@ -6,6 +6,7 @@ This repository contains my algorithmic solutions, automatically organized by to
 - [Sudoku Solver](./my-solutions/Hard/0037-sudoku-solver)
 
 ## Array
+- [Kth Largest Element in an Array](./my-solutions/Medium/0215-kth-largest-element-in-an-array)
 - [Gas Station](./my-solutions/Medium/0134-gas-station)
 - [House Robber II](./my-solutions/Medium/0213-house-robber-ii)
 - [Find Minimum in Rotated Sorted Array](./my-solutions/Medium/0153-find-minimum-in-rotated-sorted-array)
@@ -335,3 +336,6 @@ This repository contains my algorithmic solutions, automatically organized by to
 
 ## Dijkstra's Algorithm
 - [Network Delay Time](./my-solutions/Medium/0744-network-delay-time)
+
+## Quickselect
+- [Kth Largest Element in an Array](./my-solutions/Medium/0215-kth-largest-element-in-an-array)
