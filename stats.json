@@ -1,7 +1,7 @@
 {
-  "solved": 269,
+  "solved": 270,
   "easy": 81,
-  "medium": 161,
+  "medium": 162,
   "hard": 27,
   "solvedSlugs": [
     "two-sum",
@@ -272,6 +272,7 @@
     "daily-temperatures",
     "design-hashmap",
     "house-robber-ii",
-    "network-delay-time"
+    "network-delay-time",
+    "gas-station"
   ]
 }
