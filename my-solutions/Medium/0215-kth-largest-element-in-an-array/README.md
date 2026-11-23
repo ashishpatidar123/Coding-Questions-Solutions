@@ -1,3 +1,8 @@
+# Kth Largest Element in an Array
+
+### Difficulty: Medium
+### Topics: Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect
+
 <p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <em>the</em> <code>k<sup>th</sup></code> <em>largest element in the array</em>.</p>
 
 <p>Note that it is the <code>k<sup>th</sup></code> largest element in the sorted order, not the <code>k<sup>th</sup></code> distinct element.</p>
