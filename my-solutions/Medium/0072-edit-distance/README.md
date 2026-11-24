@@ -1,3 +1,8 @@
+# Edit Distance
+
+### Difficulty: Medium
+### Topics: String, Dynamic Programming
+
 <p>Given two strings <code>word1</code> and <code>word2</code>, return <em>the minimum number of operations required to convert <code>word1</code> to <code>word2</code></em>.</p>
 
 <p>You have the following three operations permitted on a word:</p>
